@@ -1,0 +1,171 @@
+/* Container box inside modal (Login form card) */
+.login-container {
+  position: relative; /* This is the most important change */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+  transform: translateY(-30px);
+  opacity: 0;
+  animation: fadeSlideIn 0.4s forwards;
+  background: linear-gradient(145deg, #ffffff, #f0f4ff);
+  color: #182848;
+}
+
+/* Close button - light mode */
+.login-modal-close-btn {
+  position: absolute !important;
+  right: 15px !important; /* Adjusted for better spacing */
+  top: 15px !important;   /* Adjusted for better spacing */
+  z-index: 10; /* Ensures the button is always on top */
+  transition: all 0.2s ease;
+  color: #182848 !important;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.login-modal-close-btn:hover {
+  transform: rotate(90deg) scale(1.2);
+  color: #4b6cb7 !important;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* Buttons */
+.login-container .MuiButton-text {
+  color: #90caf9;
+  font-weight: 600;
+  text-transform: none;
+  transition: all 0.2s ease;
+}
+
+/* Animation */
+@keyframes fadeSlideIn {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Title */
+.login-container h5 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: inherit;
+  margin-bottom: 10px;
+}
+
+/* Text fields */
+.login-container .MuiTextField-root {
+  border-radius: 12px;
+}
+
+.login-container .MuiOutlinedInput-root {
+  transition: all 0.2s ease;
+}
+
+.login-container .MuiOutlinedInput-root.Mui-focused {
+  box-shadow: 0 0 10px rgba(14, 86, 253, 0.3);
+  border-color: #4b6cb7;
+}
+
+/* Buttons */
+.login-container .MuiButton-contained {
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  padding: 10px 0;
+}
+
+.login-container .MuiButton-contained:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+}
+
+/* Messages */
+.login-container .MuiTypography-root {
+  text-align: center;
+  font-weight: 500;
+  color: inherit;
+}
+
+/* Role dropdown */
+.login-container .MuiFormControl-root {
+  background: inherit;
+  border-radius: 12px;
+  margin-top: 5px;
+}
+
+.login-container .MuiInputLabel-root {
+  color: inherit;
+  font-weight: 500;
+  top: -4px;
+}
+
+.login-container .MuiOutlinedInput-root {
+  border-radius: 12px;
+  min-height: 56px;
+  padding-right: 12px;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .login-container {
+    background: #161B22;
+    color: #F9FAFB;
+  }
+
+  .login-container .MuiTextField-root,
+  .login-container .MuiOutlinedInput-root {
+    background: #161B22;
+    color: #F9FAFB;
+  }
+
+  .login-container .MuiOutlinedInput-root.Mui-focused {
+    box-shadow: 0 0 10px rgba(30, 64, 175, 0.6);
+    border-color: #1E40AF;
+  }
+
+  .login-modal-close-btn {
+    color: #F9FAFB !important;
+    background: rgba(0,0,0,0.4);
+  }
+
+  .login-modal-close-btn:hover {
+    color: #F59E0B !important;
+    background: rgba(0,0,0,0.6);
+  }
+
+  .login-container .MuiButton-contained {
+    background: #1E40AF;
+    color: #F9FAFB;
+  }
+
+  .login-container .MuiButton-contained:hover {
+    background: #1E40AF;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  }
+
+  .login-container .MuiButton-text {
+    color: #F59E0B;
+  }
+
+  .login-container .MuiFormControl-root {
+    background: #161B22;
+  }
+
+  .login-container .MuiInputLabel-root {
+    color: #9CA3AF;
+  }
+
+  .login-container .MuiOutlinedInput-root {
+    color: #F9FAFB;
+  }
+}

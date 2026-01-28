@@ -1,0 +1,543 @@
+[
+  {
+    "model": "core.university",
+    "pk": 1,
+    "fields": {
+      "name": "IIT Bombay",
+      "state": "Maharashtra",
+      "stream": "Engineering",
+      "category": "GEN",
+      "website": "https://www.iitb.ac.in",
+      "image": "/assets/iitb.jpg"
+    }
+  },
+  {
+    "model": "core.university",
+    "pk": 2,
+    "fields": {
+      "name": "IIT Delhi",
+      "state": "Delhi",
+      "stream": "Engineering",
+      "category": "OBC",
+      "website": "https://www.iitd.ac.in",
+      "image": "/assets/iitd.jpg"
+    }
+  },
+  {
+    "model": "core.university",
+    "pk": 3,
+    "fields": {
+      "name": "Delhi University",
+      "state": "Delhi",
+      "stream": "Arts",
+      "category": "SC",
+      "website": "https://www.du.ac.in",
+      "image": "/assets/du.jpg"
+    }
+  },
+  {
+    "model": "core.university",
+    "pk": 4,
+    "fields": {
+      "name": "Banaras Hindu University",
+      "state": "Uttar Pradesh",
+      "stream": "Science",
+      "category": "GEN",
+      "website": "https://www.bhu.ac.in",
+      "image": "/assets/bhu.jpg"
+    }
+  },
+  {
+    "model": "core.university",
+    "pk": 5,
+    "fields": {
+      "name": "Anna University",
+      "state": "Tamil Nadu",
+      "stream": "Engineering",
+      "category": "ST",
+      "website": "https://www.annauniv.edu",
+      "image": "/assets/anna.jpg"
+    }
+  },
+  {
+    "model": "core.university",
+    "pk": 6,
+    "fields": {
+      "name": "Jadavpur University",
+      "state": "West Bengal",
+      "stream": "Science",
+      "category": "OBC",
+      "website": "http://www.jaduniv.edu.in",
+      "image": "/assets/jadavpur.jpg"
+    }
+  },
+  {
+    "model": "core.university",
+    "pk": 7,
+    "fields": {
+      "name": "Osmania University",
+      "state": "Telangana",
+      "stream": "Arts",
+      "category": "GEN",
+      "website": "https://www.osmania.ac.in",
+      "image": "/assets/osmania.jpg"
+    }
+  },
+  {
+    "model": "core.university",
+    "pk": 8,
+    "fields": {
+      "name": "University of Calcutta",
+      "state": "West Bengal",
+      "stream": "Commerce",
+      "category": "SC",
+      "website": "https://www.caluniv.ac.in",
+      "image": "/assets/calcutta.jpg"
+    }
+  },
+  {
+    "model": "core.university",
+    "pk": 9,
+    "fields": {
+      "name": "Savitribai Phule Pune University",
+      "state": "Maharashtra",
+      "stream": "Science",
+      "category": "GEN",
+      "website": "http://www.unipune.ac.in",
+      "image": "/assets/pune.jpg"
+    }
+  },
+  {
+    "model": "core.university",
+    "pk": 10,
+    "fields": {
+      "name": "Aligarh Muslim University",
+      "state": "Uttar Pradesh",
+      "stream": "Commerce",
+      "category": "OBC",
+      "website": "https://www.amu.ac.in",
+      "image": "/assets/amu.jpg"
+    }
+  },
+  {
+    "model": "core.university",
+    "pk": 11,
+    "fields": {
+      "name": "Amity University",
+      "state": "Uttar Pradesh",
+      "stream": "Engineering",
+      "category": "GEN",
+      "website": "https://www.amity.edu",
+      "image": "/assets/amity.jpg"
+    }
+  },
+  {
+    "model": "core.university",
+    "pk": 12,
+    "fields": {
+      "name": "University of Hyderabad",
+      "state": "Telangana",
+      "stream": "Science",
+      "category": "ST",
+      "website": "https://www.uohyd.ac.in",
+      "image": "/assets/hyderabad.jpg"
+    }
+  },
+  {
+    "model": "core.university",
+    "pk": 13,
+    "fields": {
+      "name": "Panjab University",
+      "state": "Punjab",
+      "stream": "Arts",
+      "category": "OBC",
+      "website": "https://www.puchd.ac.in",
+      "image": "/assets/panjab.jpg"
+    }
+  },
+  {
+    "model": "core.university",
+    "pk": 14,
+    "fields": {
+      "name": "IGNOU",
+      "state": "Delhi",
+      "stream": "Distance Education",
+      "category": "GEN",
+      "website": "http://www.ignou.ac.in",
+      "image": "/assets/ignou.jpg"
+    }
+  },
+  {
+    "model": "core.university",
+    "pk": 15,
+    "fields": {
+      "name": "TISS Mumbai",
+      "state": "Maharashtra",
+      "stream": "Social Sciences",
+      "category": "SC",
+      "website": "https://www.tiss.edu",
+      "image": "/assets/tiss.jpg"
+    }
+  },
+  {
+    "model": "core.university",
+    "pk": 16,
+    "fields": {
+      "name": "VJTI",
+      "state": "Maharashtra",
+      "stream": "Engineering",
+      "category": "GEN",
+      "website": "https://www.vjti.ac.in",
+      "image": "/assets/vjti.jpg"
+    }
+  },
+  {
+    "model": "core.university",
+    "pk": 17,
+    "fields": {
+      "name": "SPIT",
+      "state": "Maharashtra",
+      "stream": "Engineering",
+      "category": "GEN",
+      "website": "https://www.spit.ac.in",
+      "image": "/assets/spit.jpg"
+    }
+  },
+  {
+    "model": "core.university",
+    "pk": 18,
+    "fields": {
+      "name": "KJSCE",
+      "state": "Maharashtra",
+      "stream": "Engineering",
+      "category": "GEN",
+      "website": "https://www.kjsce.ac.in",
+      "image": "/assets/kjsce.jpg"
+    }
+  },
+  {
+    "model":"core.scholarship",
+    "pk": 1,
+    "fields":{
+      "name": "Post Matric Scholarship for SC Students",
+      "eligibility": "Scheduled Caste students studying at post-matric level",
+      "amount": "Up to ₹50,000 per year",
+      "link": "https://socialjustice.gov.in/schemes/25"
+    }
+  },
+  {
+    "model": "core.scholarship",
+    "pk": 2,
+    "fields": {
+      "name": "AICTE Pragati Scholarship for Girls",
+      "eligibility": "Girl students admitted to AICTE-approved institutions",
+      "amount": "₹50,000 per year for 4 years",
+      "link": "https://www.aicte-pragati-saksham-gov.in/"
+    }
+  },
+  {
+    "model": "core.scholarship",
+    "pk": 3,
+    "fields": {
+      "name": "Inspire Scholarship (DST)",
+      "eligibility": "Top 1% in 12th board and pursuing Natural Sciences",
+      "amount": "₹80,000 per year",
+      "link": "https://online-inspire.gov.in/"
+    }
+  },
+  {
+    "model": "core.scholarship",
+    "pk": 4,
+    "fields": {
+      "name": "National Scholarship Scheme (NSP)",
+      "eligibility": "Students belonging to minority communities",
+      "amount": "₹12,000 to ₹25,000 per year",
+      "link": "https://scholarships.gov.in/"
+    }
+  },
+  {
+    "model": "core.scholarship",
+    "pk": 5,
+    "fields": {
+      "name": "Maulana Azad National Fellowship (MANF)",
+      "eligibility": "Minority students pursuing MPhil/PhD",
+      "amount": "₹28,000 per month + HRA",
+      "link": "https://www.ugc.gov.in/"
+    }
+  },
+  {
+    "model": "core.scholarship",
+    "pk": 6,
+    "fields": {
+      "name": "Central Sector Scheme for College and University Students",
+      "eligibility": "Top 20 percentile in 12th & enrolled in UG course",
+      "amount": "₹10,000 to ₹20,000 per year",
+      "link": "https://scholarships.gov.in/"
+    }
+  },
+  {
+    "model": "core.scholarship",
+    "pk": 7,
+    "fields": {
+      "name": "Saksham Scholarship",
+      "eligibility": "Differently abled students",
+      "amount": "Rs. 50,000",
+      "link": "https://www.aicte-india.org/schemes/students-development-schemes/saksham"
+    }
+  },
+  {
+    "model": "core.scholarship",
+    "pk": 8,
+    "fields": {
+      "name": "Kind Scholarship for Young Women",
+      "eligibility": "Girls from disadvantaged backgrounds",
+      "amount": "Rs. 25,000 – 1,00,000",
+      "link": "https://www.buddy4study.com/scholarship/kind-scholarship-for-meritorious-students"
+    }
+  },
+  {
+    "model": "core.scholarship",
+    "pk": 9,
+    "fields": {
+      "name": "FAEA Scholarship",
+      "eligibility": "SC/ST/BPL students for UG courses",
+      "amount": "Full tuition + maintenance",
+      "link": "https://www.faeaindia.org"
+    }
+  },
+  {
+    "model": "core.scholarship",
+    "pk": 10,
+    "fields": {
+      "name": "NTS National Talent Search",
+      "eligibility": "Class X students",
+      "amount": "Rs. 1,250 to 2,000/month",
+      "link": "https://ncert.nic.in/national-talent-examination.php"
+    }
+  },
+  {
+    "model": "core.scholarship",
+    "pk": 11,
+    "fields": {
+      "name": "L’Oréal India For Young Women in Science",
+      "eligibility": "Girls in science after Class 12",
+      "amount": "Rs. 2,50,000",
+      "link": "https://www.buddy4study.com/scholarship/loreal-india-for-young-women-in-science-scholarship"
+    }
+  },
+  {
+    "model": "core.scholarship",
+    "pk": 12,
+    "fields": {
+      "name": "ONGC Scholarship for SC/ST",
+      "eligibility": "SC/ST in Engineering/MBBS/MBA",
+      "amount": "Rs. 48,000/year",
+      "link": "https://www.ongcindia.com"
+    }
+  },
+  {
+    "model": "core.scholarship",
+    "pk": 13,
+    "fields": {
+      "name": "Sitaram Jindal Foundation Scholarship",
+      "eligibility": "Economically weaker students",
+      "amount": "Rs. 500 – Rs. 2,500/month",
+      "link": "https://www.sitaramjindalfoundation.org"
+    }
+   },
+   {
+    "model": "core.scholarship",
+    "pk": 14,
+    "fields": {
+      "name": "Prime Minister’s Scholarship Scheme",
+      "eligibility": "Wards of ex-servicemen",
+      "amount": "Rs. 2,500 per month (girls), Rs. 2,000 (boys)",
+      "link": "https://ksb.gov.in"
+    }
+  },
+  {
+    "model": "core.scholarship",
+    "pk": 15,
+    "fields": {
+      "name": "Foundation for Excellence Scholarship",
+      "eligibility": "Engineering/Medical students with financial need",
+      "amount": "Tuition Fee Support",
+      "link": "https://www.ffe.org"
+    }
+  },
+ {
+  "model": "core.statisticsdata",
+  "pk": 1,
+  "fields": {
+    "data": {
+      "top_states": [
+          { "state": "Uttar Pradesh", "student_count": 300000 },
+          { "state": "Maharashtra", "student_count": 280000 },
+          { "state": "Tamil Nadu", "student_count": 240000 },
+          { "state": "Karnataka", "student_count": 210000 },
+          { "state": "West Bengal", "student_count": 190000 },
+          { "state": "Rajasthan", "student_count": 175000 },
+          { "state": "Bihar", "student_count": 160000 },
+          { "state": "Madhya Pradesh", "student_count": 150000 },
+          { "state": "Andhra Pradesh", "student_count": 140000 },
+          { "state": "Gujarat", "student_count": 135000 },
+          { "state": "Odisha", "student_count": 120000 },
+          { "state": "Kerala", "student_count": 115000 },
+          { "state": "Haryana", "student_count": 100000 },
+          { "state": "Punjab", "student_count": 95000 },
+          { "state": "Jharkhand", "student_count": 85000 }
+      ],
+      "popular_courses": [
+          { "stream": "Engineering & Technology", "student_count": 320000 },
+          { "stream": "Arts & Humanities", "student_count": 290000 },
+          { "stream": "Science", "student_count": 270000 },
+          { "stream": "Commerce & Management", "student_count": 250000 },
+          { "stream": "Computer Applications / IT", "student_count": 200000 },
+          { "stream": "Law", "student_count": 180000 },
+          { "stream": "Medicine & Health Sciences", "student_count": 170000 },
+          { "stream": "Education / Teaching", "student_count": 160000 },
+          { "stream": "Agriculture & Veterinary Science", "student_count": 140000 },
+          { "stream": "Design & Fine Arts", "student_count": 120000 },
+          { "stream": "Social Sciences", "student_count": 115000 },
+          { "stream": "Pharmacy", "student_count": 110000 },
+          { "stream": "Vocational / Skill Development", "student_count": 100000 }
+      ]
+    }
+  }
+},
+{
+  "model": "core.courseplatform",
+  "pk": 1,
+  "fields": {
+    "name": "Coursera",
+    "url": "https://www.coursera.org/",
+    "description": "Top university courses and certifications from Stanford, Google, Meta, and more."
+  }
+},
+{
+  "model": "core.courseplatform",
+  "pk": 2,
+  "fields": {
+    "name": "edX",
+    "url": "https://www.edx.org/",
+    "description": "Free online courses from MIT, Harvard, and other top universities."
+  }
+},
+{
+  "model": "core.courseplatform",
+  "pk": 3,
+  "fields": {
+    "name": "Udemy",
+    "url": "https://www.udemy.com/",
+    "description": "Affordable courses in business, tech, design, and more from expert instructors."
+  }
+},
+{
+  "model": "core.courseplatform",
+  "pk": 4,
+  "fields": {
+    "name": "NPTEL",
+    "url": "https://nptel.ac.in/",
+    "description": "Online courses from IITs and IISc backed by MHRD, Govt of India."
+  }
+},
+{
+  "model": "core.courseplatform",
+  "pk": 5,
+  "fields": {
+    "name": "SWAYAM",
+    "url": "https://swayam.gov.in/",
+    "description": "Indian Government’s free education initiative with UGC-approved courses."
+  }
+},
+{
+  "model": "core.courseplatform",
+  "pk": 6,
+  "fields": {
+    "name": "Khan Academy",
+    "url": "https://www.khanacademy.org/",
+    "description": "Free courses in math, science, computing, history, and more for school & college."
+  }
+},
+{
+  "model": "core.courseplatform",
+  "pk": 7,
+  "fields": {
+    "name": "FutureLearn",
+    "url": "https://www.futurelearn.com/",
+    "description": "Online courses from British universities and organizations."
+  }
+},
+{
+  "model": "core.courseplatform",
+  "pk": 8,
+  "fields": {
+    "name": "Skillshare",
+    "url": "https://www.skillshare.com/",
+    "description": "Creative skills and hobby courses in design, photography, writing, and more."
+  }
+},
+{
+  "model": "core.courseplatform",
+  "pk": 9,
+  "fields": {
+    "name": "LinkedIn Learning",
+    "url": "https://www.linkedin.com/learning/",
+    "description": "Professional development courses from business to programming and productivity."
+  }
+},
+{
+  "model": "core.courseplatform",
+  "pk": 10,
+  "fields": {
+    "name": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/",
+    "description": "Free and open access to MIT course materials."
+  }
+},
+{
+  "model": "core.courseplatform",
+  "pk": 11,
+  "fields": {
+    "name": "Harvard Online",
+    "url": "https://online-learning.harvard.edu/",
+    "description": "Courses directly from Harvard on computer science, business, and humanities."
+  }
+},
+{
+  "model": "core.courseplatform",
+  "pk": 12,
+  "fields": {
+    "name": "Stanford Online",
+    "url": "https://online.stanford.edu/",
+    "description": "Stanford University's online courses in AI, ML, and healthcare innovation."
+  }
+},
+{
+  "model": "core.courseplatform",
+  "pk": 13,
+  "fields": {
+    "name": "Codecademy",
+    "url": "https://www.codecademy.com/",
+    "description": "Interactive coding lessons in web development, data science, and more."
+  }
+},
+{
+  "model": "core.courseplatform",
+  "pk": 14,
+  "fields": {
+    "name": "Great Learning",
+    "url": "https://www.mygreatlearning.com/",
+    "description": "Indian-based platform offering data science and AI courses with certification."
+  }
+},
+{
+  "model": "core.courseplatform",
+  "pk": 15,
+  "fields": {
+    "name": "Unacademy",
+    "url": "https://unacademy.com/",
+    "description": "Popular Indian learning platform for competitive exams, IIT JEE, UPSC, NEET."
+  }
+}
+]

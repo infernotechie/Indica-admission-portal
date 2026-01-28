@@ -1,0 +1,13 @@
+/* index.css */
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Optional: Smooth transitions for theme effects */
+* {
+  transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,46 @@
+/* src/components/CustomCursor.css */
+.cursor-glow {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 22px;
+  height: 22px;
+  border: 2px solid var(--cursor-border, #4b6cb7);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: width 150ms ease, height 150ms ease, background 200ms ease,
+              box-shadow 200ms ease, opacity 180ms ease, transform 120ms ease;
+  z-index: 9999;
+  background: transparent;
+  box-shadow: 0 0 8px rgba(75,108,183,0.25);
+}
+
+/* when hovering interactive elements */
+.cursor-glow--hover {
+  width: 44px;
+  height: 44px;
+  background: rgba(75,108,183,0.12);
+  box-shadow: 0 0 18px rgba(75,108,183,0.35);
+}
+
+/* hide on inputs/focus/when we don't want it visible */
+.cursor-glow--hidden {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.6);
+}
+
+/* Dark mode default border color (if browser/system dark mode used) */
+@media (prefers-color-scheme: dark) {
+  :root { --cursor-border: #90caf9; }
+}
+
+/* Hide on touch devices (mobile) */
+@media (hover: none) {
+  .cursor-glow { display: none; }
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .cursor-glow { transition: none; }
+}

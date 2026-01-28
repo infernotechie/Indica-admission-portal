@@ -1,0 +1,129 @@
+/* Navbar.css */
+
+/* AppBar styling */
+.navbar {
+  background: linear-gradient(90deg, #4b6cb7 0%, #1976d2 100%);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 1100;          /* ensure navbar is on top */
+  top: 0;                  /* stick to top */
+  left: 0;
+  right: 0;
+}
+
+/* Add padding to body so content doesn't hide under navbar */
+body {
+  padding-top: 70px;       /* adjust depending on navbar height */
+}
+
+/* Typography title */
+.navbar-title {
+  font-weight: bold;
+  font-size: 1.4rem; /* slightly smaller if needed */
+  color: #fff;
+  cursor: pointer;
+  margin-left: 0.5rem; /* small gap from logo */
+}
+
+.navbar-logo {
+  height: 40px;        /* adjust size as needed */
+  width: 40px;
+  border-radius: 50%;  /* makes it circular */
+  object-fit: cover;   /* ensures the image fits nicely inside the circle */
+  margin-right: 10px;  /* spacing between logo and text */
+}
+
+.navbar-home-link:hover .navbar-title {
+  transform: scale(1.05);
+  color: #fff; /* ensure text color stays white */
+}
+
+.navbar-home-link:hover img {
+  transform: scale(1.05);
+}
+
+/* Stack of buttons */
+.navbar-stack {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Individual buttons */
+.navbar-button {
+  color: white !important;
+  font-weight: 500;
+  text-transform: none;
+  background-color: transparent !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-button:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  transform: scale(1.05);
+}
+
+/* Profile icon styling */
+.navbar-icon {
+  color: white;
+  transition: transform 0.2s ease;
+}
+
+.navbar-icon:hover {
+  transform: scale(1.2);
+}
+
+/* Dark/Light mode stack */
+.navbar-mode {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: white;
+}
+
+/* Icons in mode toggle */
+.navbar-mode svg {
+  font-size: 1.2rem;
+}
+
+/* ================================
+   DARK MODE STYLING
+   ================================ */
+@media (prefers-color-scheme: dark) {
+  .navbar {
+    background: #0D1117; /* Charcoal Black */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+
+  .navbar-title {
+    color: #F9FAFB; /* Off-White */
+  }
+
+  .navbar-home-link:hover .navbar-title {
+    color: #F59E0B; /* Gold on hover */
+  }
+
+  .navbar-button {
+    color: #F9FAFB !important;
+  }
+
+  .navbar-button:hover {
+    background-color: rgba(31, 41, 55, 0.5) !important; /* subtle dark overlay */
+    color: #F59E0B !important; /* Gold hover */
+  }
+
+  .navbar-icon {
+    color: #F9FAFB;
+  }
+
+  .navbar-icon:hover {
+    color: #F59E0B; /* Gold hover */
+  }
+
+  .navbar-mode {
+    color: #F9FAFB;
+  }
+
+  .navbar-mode svg {
+    color: #F9FAFB;
+  }
+}
